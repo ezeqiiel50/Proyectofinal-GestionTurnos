@@ -12,4 +12,4 @@
 #### El codigo fuente de la API debe ser ejecutado o compilado con visual Studio 2022 o superior, no necesita librerias o paquetes externos al proyecto.
 
 ### FrontEnd
-#### En el caso del codigo fuente del fronend se encuentra en la carpeta ClientApp, se debe acceder a esta ruta con un terninal y ejecutar el comando npm install para instalar todas las librerias necesarios para elfuncionamiento del proyecto.
+#### En el caso del codigo fuente del fronend se encuentra en la carpeta ClientApp, se debe acceder a esta ruta con un terninal y ejecutar el comando npm install para instalar todas las librerias necesarios para el funcionamiento del proyecto.
