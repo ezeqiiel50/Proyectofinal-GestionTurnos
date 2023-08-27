@@ -1,0 +1,224 @@
+.lateral{
+  z-index: 999;
+  width:180px;
+  height: 100%;
+  background-color: #c6cfde;
+  position: fixed;
+  top: 60px;
+  padding: 5px;
+  box-shadow: 2px 2px 5px #999;
+}
+.pie{
+ margin-right: 200px;
+}
+.Title{
+  margin-left: 5px;
+}
+.nav-item{
+  align-items: center;
+  display: flex;
+  color: #333;
+}
+.item-menu{
+  color:black;
+}
+.item-menu.active{
+  color: white;
+}
+.menu{
+  color:black;
+  font-weight: bolder;
+  display: flex;
+  padding: 3px;
+  height: 30px;
+}
+.menu:hover{
+  display: flex;
+  justify-content: center;
+  color: blue;
+  background-color: #9db2d6;
+  width: 100%;
+}
+a:link { 
+  text-decoration:none;
+ } 
+a:visited {
+   text-decoration:none;
+   }
+.menu.active {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #aebfdd;
+  width: 100%;
+}
+.anchoBuscador{
+  width:40rem;
+  margin-right: -30px;
+}
+.bodyData{
+  width:40rem;
+  margin-top: 10px;
+}
+.TituloMenu{
+  display: none;
+  text-align: center;
+  border-radius: 30px;
+  border: solid 0.1em rgb(95, 95, 95);
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1200px){
+  .caja{
+    width: 100%;
+  }
+  .bodyData{
+    width:40rem;
+    margin-top: 10px;
+  }
+  .ColMenu {
+    display: none;
+  }
+  .ColMenuFlo {
+    display: block;
+  }
+  .lateral{
+    z-index: 999;
+    height: 100%;
+    background-color: #c6cfde;
+    position: fixed;
+    top: 60px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #999;
+  }
+  .TituloMenu{
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    border: solid 0.1em rgb(95, 95, 95);
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 770px){
+  .caja{
+    width: 100%;
+  }
+  .TituloMenu{
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    border: solid 0.1em rgb(95, 95, 95);
+    margin-bottom: 10px;
+  }
+  .bodyData{
+    width:30rem;
+    margin-top: 10px;
+  }
+  .anchoBuscador{
+    width:30rem;
+  }
+  .ColMenu {
+    display: none;
+    height: auto;
+  }
+  .ColMenuFlo {
+    display: block;
+    height: auto;
+  }
+  .lateral{
+    z-index: 999;
+    height: 100%;
+    background-color: #c6cfde;
+    position: fixed;
+    top: 60px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #999;
+  }
+}
+
+@media screen and (max-width: 740px){
+  .caja{
+    width: 100%;
+  }
+  .TituloMenu{
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    border: solid 0.1em rgb(95, 95, 95);
+    margin-bottom: 10px;
+  }
+  .bodyData{
+    width:25rem;
+    margin-top: 10px;
+  }
+  .anchoBuscador{
+    width:25rem;
+  }
+  .ColMenu {
+    display: none;
+    height: auto;
+  }
+  .ColMenuFlo {
+    display: block;
+    height: auto;
+  }
+  .lateral{
+    z-index: 999;
+    width: auto;
+    height: 100%;
+    background-color: #c6cfde;
+    position: fixed;
+    top: 60px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #999;
+  }
+}
+@media screen and (max-width: 500px){
+  .pie{
+    margin-right: 100px;
+   }
+  .caja{
+    width: 100%;
+  }
+  .TituloMenu{
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    border: solid 0.1em rgb(95, 95, 95);
+    margin-bottom: 10px;
+  }
+  .bodyData{
+    width:20rem;
+    margin-top: 10px;
+  }
+  .anchoBuscador{
+    width:20rem;
+  }
+  .ColMenu {
+    display: none;
+    height: auto;
+  }
+  .ColMenuFlo {
+    display: block;
+    height: auto;
+  }
+  .lateral{
+    z-index: 999;
+    height: 100%;
+    background-color: #c6cfde;
+    position: fixed;
+    top: 60px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #999;
+  }
+}
+@media screen and (max-width: 400px){
+  .pie{
+    margin-right: 80px;
+   }
+  }
+@media screen and (max-width: 375px) {
+  .pie {
+        margin-right: 50px;
+  }
+}
